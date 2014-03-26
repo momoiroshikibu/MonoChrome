@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "MonoChrome",
+    "description": "Show you monochromatic webpages.",
+    "author": "Kosuke Matsuura",
+    "version": "1.0",
+    "browser_action": {
+        "default_icon": "./images/icon.png"
+    },
+    "background": {
+        "scripts": ["main.js"]
+    },
+    "permissions": [
+        "tabs",
+        "*://*/*"
+    ]
+}
