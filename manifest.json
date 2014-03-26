@@ -1,6 +1,7 @@
 {
     "manifest_version": 2,
     "name": "MonoChrome",
+    "short_name": "MonoChrome",
     "description": "Show you monochromatic webpages.",
     "author": "Kosuke Matsuura",
     "version": "1.0",
